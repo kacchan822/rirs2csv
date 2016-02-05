@@ -9,7 +9,7 @@ do
 	wget --timeout=30 -O archive/${name}-${today} ${url} 
 
     if [ -e archive/${name}-${today} ]; then
-	        ln -fs ../archive/${name}-${today} ./${name}
+	        ln -fs archive/${name}-${today} ./${name}
     fi
 
 done
