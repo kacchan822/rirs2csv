@@ -14,7 +14,7 @@ do
 
 done
 
-files=`cat source_url | sed -e 's/.*\/delegated-\(.*\)-extended-latest$/live\/\1/g'`
+files=`cat source_url | sed -e 's/.*\/delegated-\(.*\)-extended-latest$/\1/g'`
 
 cat ${files} > rirsfiles
 
