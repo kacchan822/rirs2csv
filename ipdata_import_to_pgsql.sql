@@ -15,4 +15,4 @@ CREATE TABLE
         status VARCHAR(50)
     );
 
-\copy ipdata(registry,country_code,network_addr,cidr,subnetmask,addr_cidr,addr_subnetmask,count_of_adresses,status_make_date,status) FROM test2.csv with csv;
+\copy ipdata(registry,country_code,network_addr,cidr,subnetmask,addr_cidr,addr_subnetmask,count_of_adresses,status_make_date,status) FROM ipdata.csv with csv;
