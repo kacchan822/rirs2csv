@@ -5,7 +5,7 @@
 # This software is released under the MIT License.
 # http://opensource.org/licenses/mit-license.php
 #
-# version: 1.0.0 (2016.02.05)
+# version: 0.1.0 (2016.02.05)
 #
 
 # import modules ---------------------------------------------------------------------------------#
