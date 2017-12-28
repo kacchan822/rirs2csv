@@ -9,6 +9,10 @@
 
 today=`date +%Y%m%d%H%M%S`
 
+if [ ! -d archive ]; then
+    mkdir archive
+fi
+
 for url in `cat source_url`
 do
 	name=`echo ${url} | sed -e 's/.*\/delegated-\(.*\)-extended-latest$/\1/g'`
